@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game_options.FXMLDocumentController">
+   <children>
+      <ImageView id="welcome" fitHeight="70.0" fitWidth="273.0" layoutX="239.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wlcome8.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="56.0" layoutX="600.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@x2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="648.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@o.png" />
+         </image>
+      </ImageView>
+      <ImageView id="user" fitHeight="116.0" fitWidth="97.0" layoutX="87.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@user6.png" />
+         </image>
+      </ImageView>
+      <Button blendMode="GREEN" layoutX="350.0" layoutY="194.0" prefHeight="86.0" prefWidth="243.0" styleClass="button1" textFill="#d10404">
+         <font>
+            <Font name="Cooper Black" size="46.0" />
+         </font>
+      </Button>
+      <Button blendMode="GREEN" layoutX="351.0" layoutY="294.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="243.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font name="Cooper Black" size="46.0" />
+         </font>
+      </Button>
+      <ImageView id="logo" fitHeight="48.0" fitWidth="222.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.jpg" />
+         </image>
+      </ImageView>
+      <Label id="mytext" layoutX="362.0" layoutY="205.0" prefHeight="64.0" prefWidth="222.0" styleClass="text" stylesheets="@style.css" text="offline" textFill="#2ea5e1">
+         <font>
+            <Font name="Algerian" size="57.0" />
+         </font>
+      </Label>
+      <Label id="mytext" layoutX="374.0" layoutY="300.0" prefHeight="74.0" prefWidth="232.0" style="-fx-effect-: dropshadow; hadoe-color: red;" text="online" textFill="#2ea5e1">
+         <font>
+            <Font name="Algerian" size="57.0" />
+         </font>
+      </Label>
+      <Button blendMode="GREEN" layoutX="40.0" layoutY="303.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="205.0" />
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="648.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@exit1.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="47.0" layoutY="307.0" prefHeight="56.0" prefWidth="191.0" text="History" textFill="#2fa5e0">
+         <font>
+            <Font name="Algerian" size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="398.0" layoutY="122.0" prefHeight="70.0" prefWidth="148.0" text="play" textFill="#ee1818">
+         <font>
+            <Font name="Kinda 3D" size="46.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="59.0" layoutY="222.0" prefHeight="17.0" prefWidth="154.0" text="user name" textFill="#dd1111">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
